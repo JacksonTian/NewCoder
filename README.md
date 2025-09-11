@@ -4,6 +4,18 @@ NewCoder 是一个新的本地 Agent 工具。
 
 > 一个 Agent 工具习作，请勿用于生产。
 
+[![NPM version][npm-image]][npm-url]
+[![Node.js CI](https://github.com/JacksonTian/NewCoder/actions/workflows/node.js.yml/badge.svg)](https://github.com/JacksonTian/NewCoder/actions/workflows/node.js.yml)
+[![codecov][cov-image]][cov-url]
+[![npm download][download-image]][download-url]
+
+[npm-image]: https://img.shields.io/npm/v/@jacksontian/newcoder-cli.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/@jacksontian/newcoder-cli
+[cov-image]: https://codecov.io/gh/JacksonTian/NewCoder/branch/master/graph/badge.svg
+[cov-url]: https://codecov.io/gh/JacksonTian/NewCoder
+[download-image]: https://img.shields.io/npm/dm/@jacksontian/newcoder-cli.svg?style=flat-square
+[download-url]: https://npmjs.org/package/@jacksontian/newcoder-cli
+
 ## Prerequisites
 
 - Node.js v20 or higher
