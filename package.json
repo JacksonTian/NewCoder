@@ -1,0 +1,27 @@
+{
+  "name": "@jacksontian/newcoder-cli",
+  "version": "1.0.0",
+  "description": "An Agent CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "test:cov": "c8 --reporter html npm run test",
+    "lint": "eslint lib tools bin *.js",
+    "lint:fix": "npm run lint -- --fix"
+  },
+  "bin": {
+    "newcoder": "./bin/cli.js"
+  },
+  "type": "module",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.4",
+    "commander": "^14.0.0",
+    "httpx": "^3.0.1"
+  },
+  "devDependencies": {
+    "c8": "^10.1.3",
+    "eslint": "^9.34.0"
+  }
+}
