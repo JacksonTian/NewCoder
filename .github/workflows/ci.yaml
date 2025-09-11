@@ -20,4 +20,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run test:cov
-      - uses: codecov/codecov-action@v5.5.1
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5.5.1
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: JacksonTian/NewCoder

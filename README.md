@@ -5,7 +5,7 @@ NewCoder 是一个新的本地 Agent 工具。
 > 一个 Agent 工具习作，请勿用于生产。
 
 [![NPM version][npm-image]][npm-url]
-[![Node.js CI](https://github.com/JacksonTian/NewCoder/actions/workflows/node.js.yml/badge.svg)](https://github.com/JacksonTian/NewCoder/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/JacksonTian/NewCoder/actions/workflows/ci.yaml/badge.svg)](https://github.com/JacksonTian/NewCoder/actions/workflows/ci.yaml)
 [![codecov][cov-image]][cov-url]
 [![npm download][download-image]][download-url]
 
